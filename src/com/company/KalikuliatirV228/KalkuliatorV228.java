@@ -1,10 +1,12 @@
 package com.company.KalikuliatirV228;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class KalkuliatorV228 {
 
-
+@Test
     public static void main(String[] args) throws ObshiiException,OneException, TwoException, ThreeException, ForException {
         while (true){
         Scanner scanner = new Scanner(System.in);
